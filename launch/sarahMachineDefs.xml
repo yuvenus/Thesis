@@ -1,0 +1,7 @@
+<launch>
+  <machine name="sarah" user="generic" address="149.106.216.25" env-loader="/home/generic/catkin_ws/devel/env.sh" default="true" password="olin107">
+  </machine>
+
+  <machine name="gen2" address="10.76.31.142" env-loader="/opt/ros/indigo/env.sh" default="false" password="olin107">
+  </machine>
+</launch>

@@ -1,0 +1,17 @@
+<launch>
+
+	<include file="sarahMachineDefs.xml" />
+
+	<include file="rosaria.xml"/>
+
+	<include file="robot_face.xml" />
+
+	<include file="usb_cam.xml"/>
+
+	<include file="audio.xml" />
+
+	<!--<include file="kinect.xml"/>-->
+
+	<!--<include file="hokuyo.xml" />-->
+
+</launch>

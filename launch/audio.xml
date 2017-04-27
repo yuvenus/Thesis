@@ -1,0 +1,11 @@
+<launch>
+
+  <node name="audio_capture" pkg="audio_capture" type="audio_capture" output="screen" machine="sarah">
+    <param name="bitrate" value="128"/>
+  </node>
+
+  <node name="audio_play" pkg="audio_play" type="audio_play" output="screen" machine="gen2">
+    <param name="dst" value="alsasink"/>
+  </node>
+
+</launch>

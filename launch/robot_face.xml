@@ -1,0 +1,14 @@
+<launch>
+    <!-- Start RobotFace node -->
+    <!--<node ns="/robot_face" name="RobotFace" pkg="robot_face" type="RobotFace" cwd="node" output="screen" />-->
+    -<node ns="/robot_face" name="RobotFace" pkg="robot_face" type="RobotFace" cwd="node" machine="sarah">
+	<env name="LD_LIBRARY_PATH" value="$(env LD_LIBRARY_PATH):/usr/lib/i386-linux-gnu/OGRE-1.8.1" />
+	<env name="DISPLAY" value=":0" />
+</node>
+
+    <node name="FestivalSynthesizer" pkg="robot_face" type="FestivalSynthesizer" cwd="node" output="screen" machine="sarah"/>
+
+    <node name="face_gui" pkg="face_gui" type="face_gui.py" cwd="node" output="screen" machine="gen2" />
+    <!--<node name="numpad" pkg="numpad" type="numpad.py" cwd="node" machine="sarah" />-->
+
+</launch>
