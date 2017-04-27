@@ -5,3 +5,5 @@ My thesis was within the realm of social robotics, where robots and humans commu
 I focused on the engagement aspect of interaction, where the robot needs to attract people's attention in order to get them to engage in a conversation with her.
 
 My thesis question: Does turning in place and greeting people attract their attention more than staying stationary to greet them, such that those people are more inclined to help SARAH with a simple task?
+
+Within this repository I uploaded the files I used to control SARAH and my actual thesis paper.
